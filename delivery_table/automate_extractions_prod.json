@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pickwell-data-lake",
+  "private_key_id": "81d89c11b95c160c0921ca2a2d35ed6492a8e8a2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDRu+7y5qR4UAP0\noiAC0QxR6iY8NK2xAdGM8zQ1xDzI38snG2q3E4SabFBO6TrtlGGA4qgRa8khYyqs\noBjkb7Iz6jox77zMXfEwXnM0Bvfs7lwz3NJq0Q0fdCxc8Q1lyZFyZnn1gJzXb73p\nosZUopSs2JVGISUpz0P3jrIzgPNtomwTqKNQgVHmz+/NTq8IAm+WUtORcBH9A+UK\nmqdapnMSkpVh08NzH2RA6Wmxa5n7cHphA+Ex6cV21FBIj8+4w26jK4pezh9U/9Fw\nHsjBJ/BAV4aaJjRriNGVGiWUa6Q2BqyhHmk+KhkooNN1O0Cer1LofbP5iaRv2EL4\nx/H1qaK3AgMBAAECggEAE3ncZmMzZXzAsUhKdeVMIi5lK8GuJqBgzjImm57EEKWl\n66H1ifF4QELL1/GujpgkNpMic+OxD+mk8XAFTIk9LVCUSnjU7M44cuGcC+CULngZ\nlcztH6aXQMZJkr1+6gA+AmqW63/skJ27lZhcMUkCF2VRXB7N1BEY/A8czmcsgI/U\n+5jP2F501y4pQsH7vwmejlFPemf59QGovTjL5Twb/QPRrte71/nYb4sUxKbHeOmp\ni7icPWtSSsqnzJv6icNiz0zyeOaHx2AfmovWeKsNrYoGfAEFqSha7ZL5zcbXrrIf\nXrB3rtllJWb1SgBPNkcAiBdjaxPz4uELk2lnydA6EQKBgQDwC5dr2lynFkhKsXga\nguPWSrQHC4yZ1ZtpkzLuhLHP+8O23RwfDS8WhGXhzSnu7FopzpuFAkFeRknpaZLF\nvvGAZnBTbWjAmcP+um6DS9WsSM4YOthYE3RIuxhb2mmhRwjA0Tf9Y1+fL56Xpsuw\n8YianY/C7EtMqE+stjKnmrR0LwKBgQDfrJe2xKqI8TKUQKBjMYvEOs7r7q3N3/9n\n5xlmdD8bs5FVDAX7DDoRjvga/wmSxmsOg3WlWl9UzWmB3aBfJtuw3E2Rm68XDm0B\nqxYeYjxAOTRf28uu5/nYSC37iKE+CaTmb4kjii6zd6mXEpb7743/cjaXhqLlmtrW\nvDG7DjAv+QKBgQDr3MflLsM5XlicI/L6QcAzEGYCQiPeCBhTzVIPMY0x6pSs+mem\nTyMEggVFsHzSiaQyThNbxxKJ2pDHa3fPG8ZaPs2B/BAgpzYA9hiepAYI6eSvxCpN\nqJfq2wOdRWfjE1QTecAFFv6fAIBZTIf6jemG2uimQ93dLchT0RbGvuku+wKBgCmo\njYEe09w5gAAYoUaYPb3Ibi2HAJvtcjY51oM8d1yDbzf1y09ckZwfkpoEkhXiGqJT\nXZ/0WvkCYPos+ud950DjZxcNdejHaQn8gVwbU7lqbhTEbQUgc2oS122XnuBdD3dT\noqkZ3WTTjqRyc+hsT3gaH4zNKJ2237dKycBa/iKRAoGAUdMSVa2XFhqQIUjbNrbs\nESybsZ1Gy3ycdNNqIubcq79tXO/ub0ELrrJf3WzQSCTvTlYsSPPCYyF7LAaA8Jfg\nH98IuVfPfYWUDTK0FGLHBmrhVwFJZYgTpdJL1KzEFQraFhE3DaMrm7UbW7cJrUJy\n4RIKl6FS/7MF6ilMdkYWa0E=\n-----END PRIVATE KEY-----\n",
+  "client_email": "automate-extractions@pickwell-data-lake.iam.gserviceaccount.com",
+  "client_id": "107661047226642219158",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/automate-extractions%40pickwell-data-lake.iam.gserviceaccount.com"
+}
