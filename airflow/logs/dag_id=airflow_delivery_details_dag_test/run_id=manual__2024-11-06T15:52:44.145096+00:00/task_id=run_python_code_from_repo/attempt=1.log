@@ -1,0 +1,104 @@
+[2024-11-06T16:52:45.900+0100] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-06T16:52:45.904+0100] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: airflow_delivery_details_dag_test.run_python_code_from_repo manual__2024-11-06T15:52:44.145096+00:00 [queued]>
+[2024-11-06T16:52:45.906+0100] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: airflow_delivery_details_dag_test.run_python_code_from_repo manual__2024-11-06T15:52:44.145096+00:00 [queued]>
+[2024-11-06T16:52:45.906+0100] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-06T16:52:45.911+0100] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): run_python_code_from_repo> on 2024-11-06 15:52:44.145096+00:00
+[2024-11-06T16:52:45.914+0100] {standard_task_runner.py:72} INFO - Started process 75968 to run task
+[2024-11-06T16:52:45.917+0100] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'airflow_delivery_details_dag_test', 'run_python_code_from_repo', 'manual__2024-11-06T15:52:44.145096+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/airflow_delivery_details_dag.py', '--cfg-path', '/var/folders/0c/zz5zdvsd0r54qsqs5xk_bz0w0000gn/T/tmpxp44is58']
+[2024-11-06T16:52:45.922+0100] {standard_task_runner.py:105} INFO - Job 5: Subtask run_python_code_from_repo
+[2024-11-06T16:52:45.946+0100] {task_command.py:467} INFO - Running <TaskInstance: airflow_delivery_details_dag_test.run_python_code_from_repo manual__2024-11-06T15:52:44.145096+00:00 [running]> on host pranavis-macbook-air.local
+[2024-11-06T16:52:45.968+0100] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='delivery-squad' AIRFLOW_CTX_DAG_ID='airflow_delivery_details_dag_test' AIRFLOW_CTX_TASK_ID='run_python_code_from_repo' AIRFLOW_CTX_EXECUTION_DATE='2024-11-06T15:52:44.145096+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-06T15:52:44.145096+00:00'
+[2024-11-06T16:52:45.969+0100] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-06T16:52:45.995+0100] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details_dag.py", line 16, in run_python_script
+    subprocess.run(['python', '/Users/pranavikusu/echo-delivery/delivery_table/upload_test.py'], check=True)
+  File "/Users/pranavikusu/.pyenv/versions/3.11.8/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', '/Users/pranavikusu/echo-delivery/delivery_table/upload_test.py']' returned non-zero exit status 2.
+[2024-11-06T16:52:46.003+0100] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=airflow_delivery_details_dag_test, task_id=run_python_code_from_repo, run_id=manual__2024-11-06T15:52:44.145096+00:00, execution_date=20241106T155244, start_date=20241106T155245, end_date=20241106T155246
+[2024-11-06T16:52:46.006+0100] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-06T16:52:46.007+0100] {standard_task_runner.py:124} ERROR - Failed to execute job 5 for task run_python_code_from_repo (Command '['python', '/Users/pranavikusu/echo-delivery/delivery_table/upload_test.py']' returned non-zero exit status 2.; 75968)
+Traceback (most recent call last):
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details_dag.py", line 16, in run_python_script
+    subprocess.run(['python', '/Users/pranavikusu/echo-delivery/delivery_table/upload_test.py'], check=True)
+  File "/Users/pranavikusu/.pyenv/versions/3.11.8/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', '/Users/pranavikusu/echo-delivery/delivery_table/upload_test.py']' returned non-zero exit status 2.
+[2024-11-06T16:52:46.027+0100] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-11-06T16:52:46.032+0100] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-06T16:52:46.033+0100] {local_task_job_runner.py:245} INFO - ::endgroup::

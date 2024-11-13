@@ -1,0 +1,288 @@
+[2024-11-06T16:18:49.474+0100] {processor.py:157} INFO - Started process (PID=74691) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:18:49.477+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:18:49.477+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:18:49.477+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:18:51.706+0100] {logging_mixin.py:154} INFO - All DAGs extracted into a list
+[2024-11-06T16:18:51.706+0100] {logging_mixin.py:154} INFO - DAG run details extracted
+[2024-11-06T16:18:51.707+0100] {logging_mixin.py:154} INFO - Starting extraction...
+[2024-11-06T16:18:51.707+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:18:51.759+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 2.285 seconds
+[2024-11-06T16:19:56.956+0100] {processor.py:157} INFO - Started process (PID=74763) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:19:56.959+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:19:56.959+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:19:56.959+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:19:58.073+0100] {logging_mixin.py:154} INFO - All DAGs extracted into a list
+[2024-11-06T16:19:58.074+0100] {logging_mixin.py:154} INFO - DAG run details extracted
+[2024-11-06T16:19:58.074+0100] {logging_mixin.py:154} INFO - Starting extraction...
+[2024-11-06T16:19:58.074+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:19:58.125+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.170 seconds
+[2024-11-06T16:20:38.269+0100] {processor.py:157} INFO - Started process (PID=74818) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:20:38.274+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:20:38.274+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:20:38.274+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:20:39.441+0100] {logging_mixin.py:154} INFO - All DAGs extracted into a list
+[2024-11-06T16:20:39.441+0100] {logging_mixin.py:154} INFO - DAG run details extracted
+[2024-11-06T16:20:39.441+0100] {logging_mixin.py:154} INFO - Starting extraction...
+[2024-11-06T16:20:39.441+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:20:39.493+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.224 seconds
+[2024-11-06T16:21:21.518+0100] {processor.py:157} INFO - Started process (PID=74871) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:21:21.521+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:21:21.521+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:21:21.521+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:21:22.652+0100] {logging_mixin.py:154} INFO - All DAGs extracted into a list
+[2024-11-06T16:21:22.652+0100] {logging_mixin.py:154} INFO - DAG run details extracted
+[2024-11-06T16:21:22.652+0100] {logging_mixin.py:154} INFO - Starting extraction...
+[2024-11-06T16:21:22.652+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:21:22.704+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.186 seconds
+[2024-11-06T16:22:04.064+0100] {processor.py:157} INFO - Started process (PID=74928) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:22:04.067+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:22:04.067+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:22:04.067+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:22:05.196+0100] {logging_mixin.py:154} INFO - All DAGs extracted into a list
+[2024-11-06T16:22:05.197+0100] {logging_mixin.py:154} INFO - DAG run details extracted
+[2024-11-06T16:22:05.197+0100] {logging_mixin.py:154} INFO - Starting extraction...
+[2024-11-06T16:22:05.197+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:22:05.249+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.185 seconds
+[2024-11-06T16:22:51.111+0100] {processor.py:157} INFO - Started process (PID=74990) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:22:51.113+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:22:51.114+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:22:51.114+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:22:52.219+0100] {logging_mixin.py:154} INFO - All DAGs extracted into a list
+[2024-11-06T16:22:52.220+0100] {logging_mixin.py:154} INFO - DAG run details extracted
+[2024-11-06T16:22:52.220+0100] {logging_mixin.py:154} INFO - Starting extraction...
+[2024-11-06T16:22:52.220+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:22:52.273+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.162 seconds
+[2024-11-06T16:23:39.877+0100] {processor.py:157} INFO - Started process (PID=75054) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:23:39.880+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:23:39.880+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:23:39.880+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:23:41.015+0100] {logging_mixin.py:154} INFO - All DAGs extracted into a list
+[2024-11-06T16:23:41.015+0100] {logging_mixin.py:154} INFO - DAG run details extracted
+[2024-11-06T16:23:41.015+0100] {logging_mixin.py:154} INFO - Starting extraction...
+[2024-11-06T16:23:41.016+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:23:41.068+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.191 seconds
+[2024-11-06T16:24:31.663+0100] {processor.py:157} INFO - Started process (PID=75118) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:24:31.666+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:24:31.666+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:24:31.666+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:24:32.755+0100] {logging_mixin.py:154} INFO - All DAGs extracted into a list
+[2024-11-06T16:24:32.756+0100] {logging_mixin.py:154} INFO - DAG run details extracted
+[2024-11-06T16:24:32.756+0100] {logging_mixin.py:154} INFO - Starting extraction...
+[2024-11-06T16:24:32.756+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:24:32.808+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.145 seconds
+[2024-11-06T16:25:21.279+0100] {processor.py:157} INFO - Started process (PID=75183) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:25:21.281+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:25:21.281+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:25:21.281+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:25:22.380+0100] {logging_mixin.py:154} INFO - All DAGs extracted into a list
+[2024-11-06T16:25:22.381+0100] {logging_mixin.py:154} INFO - DAG run details extracted
+[2024-11-06T16:25:22.381+0100] {logging_mixin.py:154} INFO - Starting extraction...
+[2024-11-06T16:25:22.381+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:25:22.433+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.155 seconds
+[2024-11-06T16:51:43.936+0100] {processor.py:186} INFO - Started process (PID=75897) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:51:43.938+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:51:43.939+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:51:43.939+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:51:44.741+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T16:51:44.742+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T16:51:44.742+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T16:51:44.742+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:51:44.783+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 0.848 seconds
+[2024-11-06T16:52:16.065+0100] {processor.py:186} INFO - Started process (PID=75933) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:52:16.067+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:52:16.068+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:52:16.068+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:52:16.976+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T16:52:16.977+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T16:52:16.977+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T16:52:16.977+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:52:17.015+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 0.950 seconds
+[2024-11-06T16:52:49.207+0100] {processor.py:186} INFO - Started process (PID=75975) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:52:49.209+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:52:49.210+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:52:49.210+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:52:50.266+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T16:52:50.267+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T16:52:50.267+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T16:52:50.267+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:52:50.307+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.101 seconds
+[2024-11-06T16:54:38.689+0100] {processor.py:186} INFO - Started process (PID=76104) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:54:38.691+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:54:38.692+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:54:38.692+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:54:39.831+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T16:54:39.831+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T16:54:39.831+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T16:54:39.831+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:54:39.868+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.180 seconds
+[2024-11-06T16:55:10.887+0100] {processor.py:186} INFO - Started process (PID=76164) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:55:10.889+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:55:10.890+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:55:10.890+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:55:12.041+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T16:55:12.042+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T16:55:12.042+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T16:55:12.042+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:55:12.080+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.194 seconds
+[2024-11-06T16:55:43.775+0100] {processor.py:186} INFO - Started process (PID=76212) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:55:43.777+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:55:43.777+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:55:43.777+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:55:44.888+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T16:55:44.888+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T16:55:44.889+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T16:55:44.889+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:55:44.930+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.155 seconds
+[2024-11-06T16:56:16.057+0100] {processor.py:186} INFO - Started process (PID=76279) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:56:16.059+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:56:16.059+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:56:16.059+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:56:17.141+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T16:56:17.142+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T16:56:17.142+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T16:56:17.142+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:56:17.180+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.124 seconds
+[2024-11-06T16:56:48.561+0100] {processor.py:186} INFO - Started process (PID=76320) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:56:48.563+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:56:48.564+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:56:48.564+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:56:49.616+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T16:56:49.616+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T16:56:49.616+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T16:56:49.616+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:56:49.656+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.097 seconds
+[2024-11-06T16:57:27.295+0100] {processor.py:186} INFO - Started process (PID=76427) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:57:27.297+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:57:27.297+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:57:27.297+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:57:28.101+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T16:57:28.101+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T16:57:28.102+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T16:57:28.102+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:57:28.140+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 0.846 seconds
+[2024-11-06T16:57:59.844+0100] {processor.py:186} INFO - Started process (PID=76460) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:57:59.846+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:57:59.847+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:57:59.846+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:58:00.928+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T16:58:00.928+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T16:58:00.928+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T16:58:00.929+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:58:00.966+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.124 seconds
+[2024-11-06T16:58:32.628+0100] {processor.py:186} INFO - Started process (PID=76489) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:58:32.630+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:58:32.630+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:58:32.630+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:58:33.672+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T16:58:33.672+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T16:58:33.672+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T16:58:33.672+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:58:33.710+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.083 seconds
+[2024-11-06T16:59:04.986+0100] {processor.py:186} INFO - Started process (PID=76523) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:59:04.988+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:59:04.989+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:59:04.988+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:59:06.120+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T16:59:06.120+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T16:59:06.120+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T16:59:06.120+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:59:06.159+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.173 seconds
+[2024-11-06T16:59:37.564+0100] {processor.py:186} INFO - Started process (PID=76559) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:59:37.566+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T16:59:37.567+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:59:37.567+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:59:38.688+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T16:59:38.689+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T16:59:38.689+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T16:59:38.689+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T16:59:38.727+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.164 seconds
+[2024-11-06T17:00:09.894+0100] {processor.py:186} INFO - Started process (PID=76593) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:00:09.896+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T17:00:09.896+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:00:09.896+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:00:10.988+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T17:00:10.988+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T17:00:10.988+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T17:00:10.988+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:00:11.028+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.135 seconds
+[2024-11-06T17:00:42.198+0100] {processor.py:186} INFO - Started process (PID=76621) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:00:42.201+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T17:00:42.201+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:00:42.201+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:00:43.272+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T17:00:43.273+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T17:00:43.273+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T17:00:43.273+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:00:43.311+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.114 seconds
+[2024-11-06T17:01:14.822+0100] {processor.py:186} INFO - Started process (PID=76770) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:01:14.825+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T17:01:14.826+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:01:14.826+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:01:16.048+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T17:01:16.049+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T17:01:16.049+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T17:01:16.049+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:01:16.088+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.267 seconds
+[2024-11-06T17:01:47.454+0100] {processor.py:186} INFO - Started process (PID=76865) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:01:47.457+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T17:01:47.457+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:01:47.457+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:01:51.215+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T17:01:51.216+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T17:01:51.216+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T17:01:51.216+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:01:51.254+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 3.801 seconds
+[2024-11-06T17:02:22.475+0100] {processor.py:186} INFO - Started process (PID=76901) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:02:22.478+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T17:02:22.478+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:02:22.478+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:02:23.507+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T17:02:23.507+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T17:02:23.507+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T17:02:23.508+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:02:23.547+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.073 seconds
+[2024-11-06T17:02:55.136+0100] {processor.py:186} INFO - Started process (PID=76937) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:02:55.139+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T17:02:55.139+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:02:55.139+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:02:56.164+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T17:02:56.164+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T17:02:56.164+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T17:02:56.165+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:02:56.204+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.069 seconds
+[2024-11-06T17:03:19.733+0100] {processor.py:186} INFO - Started process (PID=76973) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:03:19.735+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T17:03:19.735+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:03:19.735+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:03:20.803+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T17:03:20.803+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T17:03:20.803+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T17:03:20.803+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:03:20.844+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.113 seconds
+[2024-11-06T17:03:53.247+0100] {processor.py:186} INFO - Started process (PID=77011) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:03:53.251+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T17:03:53.252+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:03:53.252+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:03:54.473+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T17:03:54.474+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T17:03:54.474+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T17:03:54.474+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:03:54.513+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.269 seconds
+[2024-11-06T17:04:26.245+0100] {processor.py:186} INFO - Started process (PID=77043) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:04:26.247+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T17:04:26.248+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:04:26.247+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:04:27.326+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T17:04:27.326+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T17:04:27.326+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T17:04:27.327+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:04:27.366+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.122 seconds
+[2024-11-06T17:04:58.800+0100] {processor.py:186} INFO - Started process (PID=77077) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:04:58.802+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T17:04:58.803+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:04:58.803+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:04:59.868+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T17:04:59.868+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T17:04:59.868+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T17:04:59.868+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:04:59.907+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.109 seconds
+[2024-11-06T17:05:31.246+0100] {processor.py:186} INFO - Started process (PID=77110) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:05:31.247+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T17:05:31.248+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:05:31.248+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:05:32.320+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T17:05:32.320+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T17:05:32.320+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T17:05:32.320+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:05:32.359+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.114 seconds
+[2024-11-06T17:06:03.748+0100] {processor.py:186} INFO - Started process (PID=77143) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:06:03.750+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T17:06:03.751+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:06:03.751+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:06:04.861+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T17:06:04.862+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T17:06:04.862+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T17:06:04.862+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:06:04.901+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.155 seconds
+[2024-11-06T17:06:36.317+0100] {processor.py:186} INFO - Started process (PID=77176) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:06:36.319+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T17:06:36.320+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:06:36.320+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:06:37.374+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T17:06:37.374+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T17:06:37.374+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T17:06:37.375+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:06:37.413+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.097 seconds
+[2024-11-06T17:07:09.008+0100] {processor.py:186} INFO - Started process (PID=77213) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:07:09.010+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py for tasks to queue
+[2024-11-06T17:07:09.010+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:07:09.010+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:07:10.171+0100] {logging_mixin.py:190} INFO - All DAGs extracted into a list
+[2024-11-06T17:07:10.171+0100] {logging_mixin.py:190} INFO - DAG run details extracted
+[2024-11-06T17:07:10.171+0100] {logging_mixin.py:190} INFO - Starting extraction...
+[2024-11-06T17:07:10.172+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py
+[2024-11-06T17:07:10.217+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/airflow_delivery_details.py took 1.210 seconds

@@ -1,0 +1,67 @@
+[2024-11-06T16:14:04.107+0100] {processor.py:157} INFO - Started process (PID=74415) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:14:04.109+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-11-06T16:14:04.109+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:14:04.109+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:14:04.131+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:14:04.403+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:14:04.403+0100] {manager.py:499} INFO - Created Permission View: %s
+[2024-11-06T16:14:04.407+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:14:04.407+0100] {manager.py:499} INFO - Created Permission View: %s
+[2024-11-06T16:14:04.410+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:14:04.410+0100] {manager.py:499} INFO - Created Permission View: %s
+[2024-11-06T16:14:04.410+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:14:04.410+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:14:04.415+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:14:04.414+0100] {dag.py:2963} INFO - Creating ORM DAG for example_xcom
+[2024-11-06T16:14:04.419+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:14:04.419+0100] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-11-06T16:14:04.431+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.325 seconds
+[2024-11-06T16:15:24.335+0100] {processor.py:157} INFO - Started process (PID=74506) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:15:24.338+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-11-06T16:15:24.338+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:15:24.338+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:15:24.360+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:15:24.419+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:15:24.419+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:15:24.424+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:15:24.424+0100] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-11-06T16:15:24.431+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.097 seconds
+[2024-11-06T16:16:40.472+0100] {processor.py:157} INFO - Started process (PID=74573) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:16:40.474+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-11-06T16:16:40.474+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:16:40.474+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:16:40.495+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:16:40.554+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:16:40.554+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:16:40.559+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:16:40.559+0100] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-11-06T16:16:40.566+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.095 seconds
+[2024-11-06T16:17:58.989+0100] {processor.py:157} INFO - Started process (PID=74640) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:17:58.992+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-11-06T16:17:58.992+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:17:58.992+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:17:59.015+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:17:59.076+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:17:59.076+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:17:59.081+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:17:59.081+0100] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-11-06T16:17:59.088+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2024-11-06T16:19:24.701+0100] {processor.py:157} INFO - Started process (PID=74737) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:19:24.703+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-11-06T16:19:24.704+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:19:24.704+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:19:24.725+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:19:24.783+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:19:24.783+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:19:24.789+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:19:24.789+0100] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-11-06T16:19:24.795+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.094 seconds
+[2024-11-06T16:20:12.768+0100] {processor.py:157} INFO - Started process (PID=74790) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:20:12.771+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-11-06T16:20:12.771+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:20:12.771+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:20:12.792+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:20:12.851+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:20:12.851+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:20:12.856+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:20:12.856+0100] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-11-06T16:20:12.863+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.095 seconds
+[2024-11-06T16:21:38.340+0100] {processor.py:157} INFO - Started process (PID=74897) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:21:38.342+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-11-06T16:21:38.342+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:21:38.342+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:21:38.364+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:21:38.422+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:21:38.422+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:21:38.428+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:21:38.428+0100] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-11-06T16:21:38.435+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.096 seconds
+[2024-11-06T16:23:07.483+0100] {processor.py:157} INFO - Started process (PID=75018) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:23:07.486+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-11-06T16:23:07.487+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:23:07.487+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:23:07.524+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:23:07.618+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:23:07.618+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:23:07.632+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:23:07.632+0100] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-11-06T16:23:07.642+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.159 seconds
+[2024-11-06T16:24:47.206+0100] {processor.py:157} INFO - Started process (PID=75144) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:24:47.208+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-11-06T16:24:47.208+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:24:47.208+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:24:47.229+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
+[2024-11-06T16:24:47.288+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:24:47.288+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:24:47.294+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:24:47.293+0100] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-11-06T16:24:47.300+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.095 seconds

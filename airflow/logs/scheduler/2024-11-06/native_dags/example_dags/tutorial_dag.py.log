@@ -1,0 +1,88 @@
+[2024-11-06T16:13:58.892+0100] {processor.py:157} INFO - Started process (PID=74409) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:13:58.894+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-06T16:13:58.894+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:13:58.894+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:13:58.909+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:13:59.137+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:13:59.137+0100] {manager.py:499} INFO - Created Permission View: %s
+[2024-11-06T16:13:59.141+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:13:59.140+0100] {manager.py:499} INFO - Created Permission View: %s
+[2024-11-06T16:13:59.142+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:13:59.142+0100] {manager.py:499} INFO - Created Permission View: %s
+[2024-11-06T16:13:59.143+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:13:59.142+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:13:59.146+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:13:59.146+0100] {dag.py:2963} INFO - Creating ORM DAG for tutorial_dag
+[2024-11-06T16:13:59.146+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:13:59.146+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-06T16:13:59.160+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.269 seconds
+[2024-11-06T16:15:20.311+0100] {processor.py:157} INFO - Started process (PID=74501) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:15:20.314+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-06T16:15:20.315+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:15:20.315+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:15:20.329+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:15:20.393+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:15:20.393+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:15:20.397+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:15:20.397+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-06T16:15:20.404+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.093 seconds
+[2024-11-06T16:16:03.736+0100] {processor.py:157} INFO - Started process (PID=74544) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:16:03.739+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-06T16:16:03.739+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:16:03.739+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:16:03.753+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:16:03.814+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:16:03.814+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:16:03.818+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:16:03.818+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-06T16:16:03.824+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.088 seconds
+[2024-11-06T16:17:19.993+0100] {processor.py:157} INFO - Started process (PID=74603) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:17:19.996+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-06T16:17:19.996+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:17:19.996+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:17:20.024+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:17:20.088+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:17:20.088+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:17:20.091+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:17:20.091+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-06T16:17:20.098+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.106 seconds
+[2024-11-06T16:18:35.883+0100] {processor.py:157} INFO - Started process (PID=74672) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:18:35.885+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-06T16:18:35.885+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:18:35.885+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:18:35.900+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:18:35.963+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:18:35.963+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:18:35.966+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:18:35.966+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-06T16:18:35.974+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.091 seconds
+[2024-11-06T16:19:20.727+0100] {processor.py:157} INFO - Started process (PID=74734) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:19:20.730+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-06T16:19:20.730+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:19:20.730+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:19:20.744+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:19:20.805+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:19:20.805+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:19:20.809+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:19:20.808+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-06T16:19:20.815+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.089 seconds
+[2024-11-06T16:20:08.785+0100] {processor.py:157} INFO - Started process (PID=74787) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:20:08.788+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-06T16:20:08.788+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:20:08.788+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:20:08.802+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:20:08.863+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:20:08.863+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:20:08.867+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:20:08.866+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-06T16:20:08.873+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.088 seconds
+[2024-11-06T16:21:33.324+0100] {processor.py:157} INFO - Started process (PID=74894) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:21:33.326+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-06T16:21:33.327+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:21:33.326+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:21:33.340+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:21:33.401+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:21:33.401+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:21:33.404+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:21:33.404+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-06T16:21:33.411+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.088 seconds
+[2024-11-06T16:23:02.432+0100] {processor.py:157} INFO - Started process (PID=75015) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:23:02.435+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-06T16:23:02.435+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:23:02.435+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:23:02.450+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:23:02.519+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:23:02.519+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:23:02.523+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:23:02.522+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-06T16:23:02.530+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.098 seconds
+[2024-11-06T16:23:53.277+0100] {processor.py:157} INFO - Started process (PID=75080) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:23:53.280+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-06T16:23:53.281+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:23:53.281+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:23:53.295+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:23:53.357+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:23:53.357+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:23:53.360+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:23:53.360+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-06T16:23:53.368+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.090 seconds
+[2024-11-06T16:24:43.250+0100] {processor.py:157} INFO - Started process (PID=75141) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:24:43.253+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-06T16:24:43.253+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:24:43.253+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:24:43.267+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:24:43.328+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:24:43.328+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:24:43.332+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:24:43.332+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-06T16:24:43.338+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.089 seconds
+[2024-11-06T16:25:31.206+0100] {processor.py:157} INFO - Started process (PID=75206) to work on /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:25:31.209+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-11-06T16:25:31.209+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:25:31.209+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:25:31.223+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-11-06T16:25:31.285+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:25:31.284+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-11-06T16:25:31.288+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:25:31.288+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-11-06T16:25:31.296+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.091 seconds

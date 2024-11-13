@@ -1,35 +1,36 @@
-import os
 import google.auth
 from google.auth.transport.requests import Request
-import requests
+from googleapiclient.discovery import build
 
-# Set up your environment and constants
-AIRFLOW_HOST = os.getenv(
-    "AIRFLOW_HOST",
-    "https://e744c4e0fdc34ded96ed6a524a7eaffe-dot-us-east1.composer.googleusercontent.com/",
-)
+def test_google_authentication():
+    try:
+        # Attempt to get the default credentials
+        credentials, project = google.auth.default()
 
-# Function to get the access token
-def get_access_token():
-    credentials, _ = google.auth.default()
-    credentials.refresh(Request())
-    return credentials.token
+        # Check if the credentials are valid (if they expire, refresh them)
+        if credentials.valid:
+            print("Authentication successful!")
+        elif credentials.expired and credentials.refresh_token:
+            credentials.refresh(Request())
+            print("Authentication successful, credentials refreshed.")
+        else:
+            print("Authentication failed: credentigals are invalid or expired.")
+            return
 
-# Test the DAGs endpoint with explicit token handling
-def test_get_dags():
-    token = get_access_token()
-    headers = {
-        "Authorization": f"Bearer {token}"
-    }
-    
-    response = requests.get(f"{AIRFLOW_HOST}/api/v1/dags", headers=headers)
-    print(f"Response status code: {response.status_code}")
-    if response.status_code == 200:
-        print("DAGs retrieved successfully:")
-        print(response.json())  # Print the response JSON for further details
-    else:
-        print("Failed to retrieve DAGs:", response.text)
+        # Now, let's test by listing the projects under your Google Cloud account
+        service = build('cloudresourcemanager', 'v1', credentials=credentials)
+        request = service.projects().list()
+        response = request.execute()
 
-# Run the test function
-if __name__ == "__main__":
-    test_get_dags()
+        if 'projects' in response:
+            print("Projects available to your account:")
+            for project in response['projects']:
+                print(f"- {project['name']} (ID: {project['projectId']})")
+        else:
+            print("No projects found or unable to list projects.")
+        
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+if __name__ == '__main__':
+    test_google_authentication()

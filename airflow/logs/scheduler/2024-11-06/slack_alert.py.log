@@ -1,0 +1,182 @@
+[2024-11-06T16:23:49.260+0100] {processor.py:157} INFO - Started process (PID=75077) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:23:49.262+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:23:49.262+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:23:49.262+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:23:49.263+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:23:49.263+0100] {dagbag.py:346} ERROR - Failed to import: /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+Traceback (most recent call last):
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py", line 2, in <module>
+    from airflow.providers.slack.operators.slack_webhook import SlackWebhookOperator
+ModuleNotFoundError: No module named 'airflow.providers.slack'
+[2024-11-06T16:23:49.263+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:23:49.311+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.051 seconds
+[2024-11-06T16:24:30.069+0100] {processor.py:157} INFO - Started process (PID=75115) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:24:30.072+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:24:30.072+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:24:30.072+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:24:30.073+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:24:30.072+0100] {dagbag.py:346} ERROR - Failed to import: /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+Traceback (most recent call last):
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py", line 2, in <module>
+    from airflow.providers.slack.operators.slack_webhook import SlackWebhookOperator
+ModuleNotFoundError: No module named 'airflow.providers.slack'
+[2024-11-06T16:24:30.073+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:24:30.120+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.051 seconds
+[2024-11-06T16:25:19.637+0100] {processor.py:157} INFO - Started process (PID=75180) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:25:19.640+0100] {processor.py:829} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:25:19.640+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:25:19.640+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:25:19.641+0100] {logging_mixin.py:154} INFO - [2024-11-06T16:25:19.641+0100] {dagbag.py:346} ERROR - Failed to import: /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+Traceback (most recent call last):
+  File "/Users/pranavikusu/recurring_deliveries/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py", line 2, in <module>
+    from airflow.providers.slack.operators.slack_webhook import SlackWebhookOperator
+ModuleNotFoundError: No module named 'airflow.providers.slack'
+[2024-11-06T16:25:19.641+0100] {processor.py:841} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:25:19.688+0100] {processor.py:179} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.051 seconds
+[2024-11-06T16:51:42.136+0100] {processor.py:186} INFO - Started process (PID=75894) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:51:42.138+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:51:42.138+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:51:42.138+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:51:42.148+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:51:42.179+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.045 seconds
+[2024-11-06T16:52:14.589+0100] {processor.py:186} INFO - Started process (PID=75930) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:52:14.591+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:52:14.591+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:52:14.591+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:52:14.601+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:52:14.632+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.044 seconds
+[2024-11-06T16:52:46.953+0100] {processor.py:186} INFO - Started process (PID=75970) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:52:46.955+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:52:46.955+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:52:46.955+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:52:46.964+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:52:46.995+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.044 seconds
+[2024-11-06T16:54:36.790+0100] {processor.py:186} INFO - Started process (PID=76100) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:54:36.792+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:54:36.792+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:54:36.792+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:54:36.802+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:54:36.836+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.047 seconds
+[2024-11-06T16:55:08.520+0100] {processor.py:186} INFO - Started process (PID=76160) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:55:08.521+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:55:08.522+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:55:08.522+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:55:08.533+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:55:08.566+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.048 seconds
+[2024-11-06T16:55:40.163+0100] {processor.py:186} INFO - Started process (PID=76205) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:55:40.165+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:55:40.166+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:55:40.166+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:55:40.180+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:55:40.212+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.050 seconds
+[2024-11-06T16:56:11.488+0100] {processor.py:186} INFO - Started process (PID=76267) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:56:11.490+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:56:11.490+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:56:11.490+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:56:11.505+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:56:11.538+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.051 seconds
+[2024-11-06T16:56:42.730+0100] {processor.py:186} INFO - Started process (PID=76314) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:56:42.732+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:56:42.732+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:56:42.732+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:56:42.749+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:56:42.782+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.054 seconds
+[2024-11-06T16:57:25.301+0100] {processor.py:186} INFO - Started process (PID=76425) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:57:25.304+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:57:25.304+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:57:25.304+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:57:25.313+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:57:25.345+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.045 seconds
+[2024-11-06T16:57:56.834+0100] {processor.py:186} INFO - Started process (PID=76457) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:57:56.836+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:57:56.837+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:57:56.836+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:57:56.846+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:57:56.877+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.044 seconds
+[2024-11-06T16:58:28.651+0100] {processor.py:186} INFO - Started process (PID=76487) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:58:28.653+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:58:28.654+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:58:28.653+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:58:28.663+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:58:28.694+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.043 seconds
+[2024-11-06T16:59:00.545+0100] {processor.py:186} INFO - Started process (PID=76515) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:59:00.547+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:59:00.548+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:59:00.548+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:59:00.558+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:59:00.597+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.052 seconds
+[2024-11-06T16:59:31.973+0100] {processor.py:186} INFO - Started process (PID=76552) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:59:31.976+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T16:59:31.976+0100] {logging_mixin.py:190} INFO - [2024-11-06T16:59:31.976+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:59:31.988+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T16:59:32.020+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.048 seconds
+[2024-11-06T17:00:04.311+0100] {processor.py:186} INFO - Started process (PID=76588) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:00:04.313+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:00:04.313+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:00:04.313+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:00:04.324+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:00:04.357+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.047 seconds
+[2024-11-06T17:00:35.789+0100] {processor.py:186} INFO - Started process (PID=76617) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:00:35.791+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:00:35.791+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:00:35.791+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:00:35.801+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:00:35.832+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.044 seconds
+[2024-11-06T17:01:08.364+0100] {processor.py:186} INFO - Started process (PID=76750) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:01:08.366+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:01:08.367+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:01:08.367+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:01:08.386+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:01:08.452+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.089 seconds
+[2024-11-06T17:01:41.754+0100] {processor.py:186} INFO - Started process (PID=76855) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:01:41.756+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:01:41.756+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:01:41.756+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:01:41.766+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:01:41.797+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.044 seconds
+[2024-11-06T17:02:13.436+0100] {processor.py:186} INFO - Started process (PID=76895) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:02:13.437+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:02:13.438+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:02:13.438+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:02:13.449+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:02:13.483+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.048 seconds
+[2024-11-06T17:02:44.623+0100] {processor.py:186} INFO - Started process (PID=76930) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:02:44.625+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:02:44.626+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:02:44.625+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:02:44.635+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:02:44.666+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.044 seconds
+[2024-11-06T17:03:15.799+0100] {processor.py:186} INFO - Started process (PID=76968) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:03:15.801+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:03:15.801+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:03:15.801+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:03:15.812+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:03:15.844+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.047 seconds
+[2024-11-06T17:03:22.395+0100] {processor.py:186} INFO - Started process (PID=76995) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:03:22.397+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:03:22.397+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:03:22.397+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:03:22.408+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:03:22.441+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.047 seconds
+[2024-11-06T17:03:56.573+0100] {processor.py:186} INFO - Started process (PID=77032) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:03:56.575+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:03:56.576+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:03:56.576+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:03:56.591+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:03:56.623+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.051 seconds
+[2024-11-06T17:04:28.964+0100] {processor.py:186} INFO - Started process (PID=77064) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:04:28.966+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:04:28.967+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:04:28.966+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:04:28.983+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:04:29.015+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.053 seconds
+[2024-11-06T17:05:01.203+0100] {processor.py:186} INFO - Started process (PID=77097) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:05:01.205+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:05:01.205+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:05:01.205+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:05:01.225+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:05:01.259+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.057 seconds
+[2024-11-06T17:05:34.394+0100] {processor.py:186} INFO - Started process (PID=77130) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:05:34.396+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:05:34.397+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:05:34.397+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:05:34.412+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:05:34.443+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.050 seconds
+[2024-11-06T17:06:06.934+0100] {processor.py:186} INFO - Started process (PID=77163) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:06:06.936+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:06:06.936+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:06:06.936+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:06:06.954+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:06:06.985+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.052 seconds
+[2024-11-06T17:06:39.583+0100] {processor.py:186} INFO - Started process (PID=77195) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:06:39.586+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:06:39.586+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:06:39.586+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:06:39.603+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:06:39.635+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.053 seconds
+[2024-11-06T17:07:12.537+0100] {processor.py:186} INFO - Started process (PID=77233) to work on /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:07:12.538+0100] {processor.py:914} INFO - Processing file /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py for tasks to queue
+[2024-11-06T17:07:12.539+0100] {logging_mixin.py:190} INFO - [2024-11-06T17:07:12.539+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:07:12.554+0100] {processor.py:927} WARNING - No viable dags retrieved from /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py
+[2024-11-06T17:07:12.585+0100] {processor.py:208} INFO - Processing /Users/pranavikusu/recurring_deliveries/airflow/dags/slack_alert.py took 0.050 seconds
